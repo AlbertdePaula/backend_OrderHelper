@@ -11,14 +11,14 @@
       "src/modules/**/infra/typeorm/entities/*.ts"
    ],
    "migrations": [
-      "src/shared/typeorm/migrations/*.ts"
+      "src/shared/**/infra/typeorm/migrations/*.ts"
    ],
    "subscribers": [
       "src/subscriber/**/*.ts"
    ],
    "cli": {
       "entitiesDir": "src/entity",
-      "migrationsDir": "src/migration",
+      "migrationsDir": "src/shared/infra/typeorm/migrations",
       "subscribersDir": "src/subscriber"
    }
 }
